@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            gap: 20px;
+        }
+        .container div{
+            height: 200px;
+            background-color: aqua;
+        }
+        @media (max-width: 576px) {
+            body {
+                background: yellow;
+            }
+            .container{
+             grid-template-columns: repeat(1,1fr);
+            }
+        }
+        @media (min-width: 768px) and (max-width: 991px) {
+            body {
+                background: red;
+            }
+            .container{
+             grid-template-columns: repeat(2,1fr);
+            }
+        }
+        @media (min-width: 1200px){
+            body{
+                background: cyan;
+            }
+            .container{
+                grid-template-columns: reapeat(3,1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

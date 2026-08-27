@@ -1,0 +1,37 @@
+/*h1{
+    color: red;
+}
+h2{
+    color: red;
+}
+h3{
+    color: red;
+}*/
+/*Solution*/
+:root{
+    --primary-color: blue;
+    --secondry-color: blue;
+}
+
+h1{
+    color: var(--primary-color);
+}
+h2{
+    color: var(--primary-color);
+}
+h3{
+    color: var(--primary-color);
+}
+
+/*p{
+    font-size: 20px;
+    The problem with px it will not increase the font size even we change setting
+}*/
+
+p{
+    font-size: 1.5rem;
+}
+div{
+    height: 400px;
+    width: 450px;
+}

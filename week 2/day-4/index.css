@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    border: 1px solid black;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 40px;
+    box-sizing: border-box;
+    align-items: center;
+}
+.logo{
+    font-size: 40px;
+   
+}
+.nav{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+.parent{
+    display: flex;
+    flex-wrap: nowrap;
+    /*
+    shrink
+    basis
+    grow
+    */
+}
+.parent div{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}

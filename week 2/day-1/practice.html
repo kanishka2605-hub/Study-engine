@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 3px; 
+      }
+        </style>
+</head>
+<body>
+  <h1 style="margin-inline: auto; text-align: center;">CSS Box Sizing Example</h1>
+  <div style="width: 800px;margin: auto; border: 1px solid black; 
+  box-sizing: border-box; height: 650px; padding: 10px;">
+  
+  <p>
+    <h2 style="color: brown;">1. Content Box</h2>
+    <div style="height: 210px; width: 400px; border: 10px solid blue;
+     box-sizing: border-box; background-color: aqua;">
+     <p>
+      <h3>box-sizing: content-box</h3>
+      <br/>
+      Width=300px
+      <br/>
+      <br/>
+      Padding = 30px left + 10px right
+      <br/>
+      <br/>
+      Border = 10px left + 10px right
+      <br/>
+      <br/>
+      Actual width becomes: 300+60+20=380px
+     </p>
+    </div>
+    <br/>
+    <br/>
+
+    <h2 style="color: brown;">2. Border Box</h2>
+    <div style="height: 150px; width: 400px; border: 10px solid blue;
+    box-sizing: border-box; background-color: aqua;">
+    <p>
+      <h3>box sizing: border box</h3>
+      <br/>
+      width = 300px
+     <br/>
+     <br/>
+      padding and border are included inside the 300px width
+    </p>
+    </div>
+    <br/>
+    <br/>
+
+    <div style="width: 770px; height: 110px; border:3px solid yellowgreen; box-sizing:
+     border-box; border-color: yellow; background-color: yellowgreen;">
+     <p>
+      <h3>Main Difference</h3>
+      
+      <b>content-box:</b>width and height apply only to the content. Padding and border are added outside.
+      <br/>
+      <br/>
+      <b>border-box:</b> width and height include content, padding, and border.
+     </p>
+     </div>
+     
+  </p>
+</div>
+</body>
+</html>

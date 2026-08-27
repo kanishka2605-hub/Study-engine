@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Jasmine Spec Runner v2.8.0</title>
+
+  <!-- <link rel="shortcut icon" type="image/png" href="jasmine/jasmine-2.8.0/face.png"> -->
+  <link rel="stylesheet" href="jasmine/jasmine-2.8.0/jasmine.css">
+  <link rel="stylesheet" href="main.css">
+
+  <script src="jasmine/jasmine-2.8.0/jasmine.js"></script>
+  <script src="jasmine/jasmine-2.8.0/jasmine-html.js"></script>
+  <script src="jasmine/jasmine-2.8.0/boot.js"></script>
+
+  <!-- include source files here... -->
+
+  <script src="src/app.js"></script>
+
+  <!-- include spec files here... -->
+  <script src="tests/FunctionsTest.js"></script>
+
+</head>
+
+<body>
+  <!-- ================================================================
+       ONLY EDIT THIS <body>. Leave the doctype and <head> untouched.
+       Build an accessible sign-up <form> so every test goes green.
+       Delete each TODO as you finish it.
+       ================================================================ -->
+
+  <h1>Create your account</h1>
+    <form action="">
+     <!-- tag placeholder label attribute -->
+
+     <label for="name">Name</label>
+     <br/>
+     <input placeholder="Enter your name" type="text" id="name" required>
+     <br/>
+     <br/>
+
+      <label for="Id">Id</label>
+      <br/>
+     <input placeholder="Enter your Id" type="text" id="Id" required>
+     <br/>
+     <br/>
+
+     <label for="Email">Email</label>
+     <br/>
+     <input placeholder="Enter your Email" type="email" id="Email" required>
+     <br/>
+     <br/>
+
+     <label for="Password">Password</label>
+     <br/>
+     <input placeholder="type password" type="password" id="Password" required minlength="8">
+     <br/>
+     <br/>
+
+      <label for="Terms"></label>
+     <input type="checkbox" id="Terms" required>
+     <label for="terms">I agree to the terms and conditions</label>
+
+     <br/>
+     <br/>
+     
+     <button type="submit">Sign up</button>
+    </form>
+
+</body>
+
+</html>
