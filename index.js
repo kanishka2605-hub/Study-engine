@@ -29,20 +29,20 @@
 // console.log(a)
 // console.log(typeof(str))
 
-let a = 5;
-let b = 6;
-let mul = a * b; // 30
-let add = a + b; //11
-let sub = a - b; //-1
-let div = a / b; //0.
-let rem = a % b; //0
+// let a = 5;
+// let b = 6;
+// let mul = a * b; // 30
+// let add = a + b; //11
+// let sub = a - b; //-1
+// let div = a / b; //0.
+// let rem = a % b; //0
 
-console.log(mul, add, sub, div.toFixed(2), rem);
+// console.log(mul, add, sub, div.toFixed(2), rem);
 
-let c = 1;
-c = c + 5;
-c += 1;
-console.log(c);
+// let c = 1;
+// c = c + 5;
+// c += 1;
+// console.log(c);
 
 // comparison operators
 // let x=6;
@@ -64,8 +64,8 @@ console.log(c);
 // Logical Operators
 
 // &&
-let age = 17;
-let gender = "male";
+// let age = 17;
+// let gender = "male";
 // if (age > 18 ||  gender == "male" ) {
 //   console.log("You are free");
 // }
@@ -73,7 +73,7 @@ let gender = "male";
 //     console.log("forbidden")
 // }
 // && and ||
-let flag = false;
+// let flag = false;
 // if(flag==false){
 //     console.log("NO")
 // }
@@ -124,9 +124,9 @@ let flag = false;
 //   }
 //   console.log(i);
 // }
-let i=5;
+// let i=5;
 
-while(i<10){
-    i++;
-    console.log(i)
-}
+// while(i<10){
+//     i++;
+//     console.log(i)
+// }

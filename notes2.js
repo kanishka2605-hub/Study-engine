@@ -8,8 +8,8 @@
 // arr.shift()
 // console.log(arr)
 // // slice , splice
-// // let ans=arr.slice(0,3);
-// // console.log(ans);
+// let ans=arr.slice(0,3);
+// console.log(ans);
 // arr.splice(2,0,8);
 // console.log(arr)
 
@@ -34,3 +34,5 @@
 //   }
 // }
 // console.log(obj)
+
+
