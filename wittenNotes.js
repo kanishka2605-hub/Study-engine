@@ -721,7 +721,7 @@
 
 // Optional Chaining ?.
 // Prevents errors when accessing a property that may not exist.
-console.log(user?.address?.city);
+// console.log(user?.address?.city);
 
 // Nullish Coalescing ??
 // Provides a fallback when a value is null or undefined.
